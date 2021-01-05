@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -25,7 +25,7 @@
 		<Item Name="HTS.lvlib" Type="Library" URL="../HTS.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Session - Root.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/_Session Fwk/Session - Root.lvclass"/>
+				<Item Name="Session - Root.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/_Session Fwk/Session - Root.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="TestStand API Numeric Constants.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand API Numeric Constants.ctl"/>
@@ -41,7 +41,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{F5EEC62D-4EAE-4FF6-81E0-BD92ECF62F93}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A9C0685C-C748-483E-A6E6-F5DEFE2D916D}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{70F051F0-B406-4520-8454-8367CCACBAC0}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">SeqFile Exec Test EXE</Property>
